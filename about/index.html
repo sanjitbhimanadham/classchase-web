@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ClassChase</title>
+    <meta name="description" content="About ClassChase." />
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+        .about-hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 960px;
+            padding: 70px 0 80px;
+        }
+
+        .about-hero-h1 {
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            line-height: 1.1em;
+            text-align: center;
+            color: var(--black);
+            width: 100%;
+            margin: 0;
+        }
+
+        .about-hero-p {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            line-height: 1.2em;
+            text-align: center;
+            color: var(--black);
+            max-width: 550px;
+            margin: 0;
+        }
+
+        @media (max-width: 809px) {
+            .about-hero {
+                padding: 90px 0 40px;
+            }
+
+            .about-hero-h1 {
+                font-size: 26px;
+            }
+
+            .about-hero-p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrap">
+        <nav>
+            <a href="/" class="nav-logo">ClassChase</a>
+            <div class="nav-spacer"></div>
+            <ul class="nav-links">
+                <li><a href="../about/index.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="outer">
+
+        <!-- HERO -->
+        <div class="inner" style="display:flex;justify-content:center;">
+            <div class="about-hero">
+                <div class="about-hero-h1">About</div>
+                <p class="about-hero-p">ClassChase started in December 2025.</p>
+            </div>
+        </div>
+
+    </div><!-- /outer -->
+</body>
+
+</html>
