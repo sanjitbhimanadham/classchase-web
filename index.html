@@ -7,7 +7,36 @@
     <title>ClassChase</title>
     <meta name="description"
         content="Never miss an open seat. ClassChase notifies Texas A&M students the instant a spot opens in a full class." />
+    <link rel="icon" href="/images/icon.png" type="image/png" />
+    <meta property="og:image" content="/images/icon.png" />
+    <meta property="og:title" content="ClassChase" />
+    <meta property="og:description" content="Never miss an open seat. ClassChase notifies Texas A&M students the instant a spot opens in a full class." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="/images/icon.png" />
     <link rel="stylesheet" href="/styles.css" />
+    <style>
+        .gplay-wrap { display: inline-block; position: relative; cursor: pointer; }
+        .gplay-wrap .gplay-tooltip {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--white);
+            color: var(--black);
+            font-family: var(--font);
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+            white-space: nowrap;
+            padding: 5px 12px;
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+        }
+        .gplay-wrap:hover .gplay-tooltip,
+        .gplay-wrap:active .gplay-tooltip { opacity: 1; }
+    </style>
 </head>
 
 <body>
@@ -33,14 +62,13 @@
                 <div class="store-row">
                     <a href="https://apps.apple.com/us/app/classchase/id6757295456?itscg=30200&itsct=apps_box_badge&mttnsubad=6757295456"
                         style="display: inline-block;">
-                        <img src="images/appstore.png"
-                            alt="Download on the App Store"
+                        <img src="images/appstore.png" alt="Download on the App Store"
                             style="height: 43px; width: auto; vertical-align: middle;" />
                     </a>
-                    <span style="display:inline-block;">
-                        <img src="images/googleplay.png"
-                            alt="Get it on Google Play"
+                    <span class="gplay-wrap">
+                        <img src="images/googleplay.png" alt="Get it on Google Play"
                             style="height: 43px; width: auto; vertical-align: middle;" />
+                        <span class="gplay-tooltip">Coming Soon</span>
                     </span>
                 </div>
             </div>
@@ -78,7 +106,7 @@
                         </div>
                         <div class="step-h4-row"><span class="step-n">2.</span><span class="step-h4">We watch
                                 24/7</span></div>
-                        <div class="step-p">We continuously monitors enrollment changes so you don't have to.
+                        <div class="step-p">We continuously monitor enrollment changes so you don't have to.
                         </div>
                     </div>
 
@@ -101,7 +129,7 @@
         <!-- SAVE SECTION -->
         <div class="save-wrap">
             <div class="save-h1">Get the class you need.</div>
-            <div class="save-h3">And stop refreshing.</div>
+            <div class="save-h3">And skip refreshing.</div>
         </div>
 
         <!-- FEATURES -->
@@ -111,7 +139,8 @@
                 <div class="features-row">
                     <div class="feature-col">
                         <!-- replace feature-1.png with a 1080x1080 px screenshot -->
-                        <div class="feature-img"><img src="images/feature-3.png" alt="Instant alerts" class="feature-photo" />
+                        <div class="feature-img"><img src="images/feature-3.png" alt="Instant alerts"
+                                class="feature-photo" />
                         </div>
                         <div class="feature-h4">Clean interface</div>
                     </div>
@@ -136,9 +165,9 @@
             <div class="security-section">
                 <div class="section-h1">Built for Aggies</div>
                 <div style="display:flex;justify-content:center;width:100%;max-width:783px;">
-        <div class="security-sub">The app monitors Texas A&amp;M's public registration data.</div>
-      </div>
-            <!-- <a href="#" class="learn-more-btn">Learn more ↗</a> -->
+                    <div class="security-sub">The app monitors Texas A&amp;M's public registration data.</div>
+                </div>
+                <!-- <a href="#" class="learn-more-btn">Learn more ↗</a> -->
                 <div class="security-icons-row">
                     <div class="security-icon-col">
                         <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
@@ -152,7 +181,8 @@
                     <div class="security-icon-col">
                         <svg class="sec-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                             stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" />
+                            <polygon
+                                points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" />
                         </svg>
                         <div class="sec-label">Free to use forever</div>
                     </div>
@@ -175,14 +205,13 @@
             <div class="store-row">
                 <a href="https://apps.apple.com/us/app/classchase/id6757295456?itscg=30200&itsct=apps_box_badge&mttnsubad=6757295456"
                     style="display: inline-block;">
-                    <img src="images/appstore.png"
-                        alt="Download on the App Store"
+                    <img src="images/appstore.png" alt="Download on the App Store"
                         style="height: 43px; width: auto; vertical-align: middle;" />
                 </a>
-                <span style="display:inline-block;">
-                    <img src="images/googleplay.png"
-                        alt="Get it on Google Play"
+                <span class="gplay-wrap">
+                    <img src="images/googleplay.png" alt="Get it on Google Play"
                         style="height: 43px; width: auto; vertical-align: middle;" />
+                    <span class="gplay-tooltip">Coming Soon</span>
                 </span>
             </div>
         </div>
@@ -199,8 +228,8 @@
                     <div class="footer-spacer"></div>
                     <div class="footer-links-col">
                         <a href="/support">Support</a>
-                        <a href="">Terms of Service</a>
-                        <a href="">Privacy Policy</a>
+                        <a href="/terms">Terms of Service</a>
+                        <a href="/privacy">Privacy Policy</a>
                     </div>
                 </div>
             </div>
