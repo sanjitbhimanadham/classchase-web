@@ -8,9 +8,10 @@
     <meta name="description"
         content="Never miss an open seat. ClassChase notifies Texas A&M students the instant a spot opens in a full class." />
     <link rel="icon" href="/images/icon.png" type="image/png" />
-    <meta property="og:image" content="/images/icon.png" />
+    <meta property="og:image" content="/images/banner.png" />
     <meta property="og:title" content="ClassChase" />
-    <meta property="og:description" content="Never miss an open seat. ClassChase notifies Texas A&M students the instant a spot opens in a full class." />
+    <meta property="og:description"
+        content="Never miss an open seat. ClassChase notifies Texas A&M students the instant a spot opens in a full class." />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:image" content="/images/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,10 +19,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
     <link rel="stylesheet" href="/styles.css" />
     <style>
-        .gplay-wrap { display: inline-block; position: relative; cursor: pointer; }
+        .gplay-wrap {
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+        }
+
         .gplay-wrap .gplay-tooltip {
             position: absolute;
-            top: 50%; left: 50%;
+            top: 50%;
+            left: 50%;
             transform: translate(-50%, -50%);
             background: var(--white);
             color: var(--black);
@@ -37,8 +44,11 @@
             opacity: 0;
             transition: opacity 0.15s;
         }
+
         .gplay-wrap:hover .gplay-tooltip,
-        .gplay-wrap:active .gplay-tooltip { opacity: 1; }
+        .gplay-wrap:active .gplay-tooltip {
+            opacity: 1;
+        }
     </style>
 </head>
 
