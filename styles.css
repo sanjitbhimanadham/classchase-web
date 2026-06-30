@@ -85,7 +85,7 @@ nav {
   padding: 140px 0 0;
 }
 .hero-h1 {
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 1em;
@@ -95,7 +95,7 @@ nav {
 }
 .hero-h2 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.04em;
   line-height: 1em;
   text-align: center;
