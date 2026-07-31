@@ -6,7 +6,7 @@
   --gray-nav: #999999;
   --gray-sub: #999999;
   --off-white: #f5f5f5;
-  --font: "Montserrat", sans-serif;
+  --font: "Poppins", sans-serif;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -97,7 +97,7 @@ nav {
   flex-shrink: 0;
 }
 .brand-text {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font);
   font-size: 48px;
   font-weight: 700;
   letter-spacing: normal;
@@ -162,7 +162,7 @@ nav {
 .hero-tag {
   font-family: var(--font);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--gray-sub);
   letter-spacing: -0.03em;
 }
@@ -186,13 +186,21 @@ nav {
   padding-top: 0;
   margin-top: 4px;
 }
+.social-proof {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--gray-sub);
+  text-align: center;
+  margin-top: 4px;
+}
 
 /* ── HOW IT WORKS ── */
 .section-how-wrap {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 30px;
   background: var(--white);
 }
 .section-how {
@@ -206,7 +214,7 @@ nav {
 }
 .section-h1 {
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.06em;
   line-height: 1.1em;
   text-align: center;
@@ -281,7 +289,7 @@ nav {
 }
 .step-p {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 1.2em;
   color: var(--gray-sub);
@@ -344,8 +352,6 @@ br.mobile-br { display: none; }
 
 @media (max-width: 809px) {
   br.mobile-br { display: inline; }
-  .brand-text { font-size: 32px; }
-  .brand-icon { width: 32px; height: 32px; }
   .hero-h2 { font-size: 28px; }
   .hero-text-wrap { padding: 16px 0 0; }
   .steps-row { flex-direction: column; gap: 32px; width: calc((960px - 40px) / 3); padding: 16px 0; }
